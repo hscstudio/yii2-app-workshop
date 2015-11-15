@@ -17,7 +17,6 @@
         "yiisoft/yii2": ">=2.0.5",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-		"hscstudio/yii2-app-single": "~1.0",
 		"hscstudio/yii2-export": "~1.0",
         "hscstudio/yii2-mimin": "~1.0",
 		"kartik-v/yii2-widgets": "~3.4"        
