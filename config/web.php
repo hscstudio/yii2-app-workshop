@@ -30,6 +30,10 @@ $config = [
             // for the mailer to send real emails.
             'useFileTransport' => true,
 			/*
+			// if using Gmail
+			// turn on at less secure apps
+			// https://www.google.com/settings/security/lesssecureapps
+			// please set in params.php too
 			'viewPath' => '@app/mail',
 			'transport'=>[
 				'class'=>'Swift_SmtpTransport',
