@@ -1,10 +1,10 @@
-Yii 2 Single Project Template
+Yii 2 Workshop Project Template
 ============================
 
-Yii 2 Single Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
+Yii 2 Workshop Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
-The template is basic with advanced application template features.
+The template is single with more extension for workshop purpose.
 It includes all commonly used configurations that would allow you to focus on adding new
 features to your application.
 
@@ -69,7 +69,7 @@ You can then install this project template using the following command:
 
 ~~~
 php composer.phar global require "fxp/composer-asset-plugin:~1.1.0"
-php composer.phar create-project --prefer-dist --stability=dev hscstudio/yii2-app-single single
+php composer.phar create-project --prefer-dist --stability=dev hscstudio/yii2-app-workshop workshop
 ~~~
 
 
@@ -83,7 +83,7 @@ Create a new database and adjust the components['db'] configuration the file `co
 ```php
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2single',
+    'dsn' => 'mysql:host=localhost;dbname=yii2workshop',
     'username' => 'root',
     'password' => '1234',
     'charset' => 'utf8',
@@ -94,11 +94,11 @@ Apply migrations with console command
 
 ``` yii migrate ```
 
-Now you should be able to access the application through the following URL, assuming `single` is the directory
+Now you should be able to access the application through the following URL, assuming `workshop` is the directory
 directly under the Web root.
 
 ~~~
-http://localhost/single/web/
+http://localhost/workshop/web/
 ~~~
 
 **NOTES:**
